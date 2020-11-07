@@ -16,7 +16,7 @@ const Banner = ({ style, title, subtitle, children }) => {
 const BannerWrapper = styled.div`
   padding-top: 6rem;
   .box {
-    width: 80%;
+    width: 70%;
     margin: 0rem auto;
     display: flex;
     flex-direction: column;
@@ -26,8 +26,8 @@ const BannerWrapper = styled.div`
   .title {
     text-transform: uppercase;
     font-family: "helvetica";
-    font-size: 137px;
-    font-weight: lighter;
+    font-size: 130px;
+    font-weight: bolder;
     line-height: 120px;
     margin-bottom: 1rem;
     text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
