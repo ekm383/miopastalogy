@@ -30,7 +30,11 @@ const Footer = () => {
           <h6>Location & Directions:</h6>
           <ul>
             <li>1110 McCully St, Honolulu, HI 96826</li>
-            <li>Driving Directions</li>
+            <li>
+              <a href="https://goo.gl/maps/Y4CgP4GTSmJHDkUt6">
+                Driving Directions
+              </a>
+            </li>
           </ul>
         </div>
         <div className="column">
@@ -77,6 +81,9 @@ const StyledFooter = styled.footer`
     li {
       font-size: 10px;
       line-height: 1rem;
+      a {
+        color: white !important;
+      }
     }
   }
   @media (max-width: 768px) {

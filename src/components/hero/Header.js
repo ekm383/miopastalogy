@@ -24,7 +24,7 @@ const Header = () => {
         <NavBar />
         <Banner title="Mio Pastalogy" subtitle="Fresh Pasta Made Daily" />
         <div className="button-container">
-          <a href="/">
+          <a href="#menu">
             <button className="banner-button">View Menu</button>
           </a>
         </div>

@@ -8,7 +8,7 @@ class NavBarLinks extends Component {
     links: [
       {
         id: 1,
-        path: "/",
+        path: "#menu",
         text: "Menu",
       },
       {
@@ -32,7 +32,7 @@ class NavBarLinks extends Component {
         })}
         <ul className="social">
           <li>
-            <a href="/">
+            <a href="https://www.instagram.com/miopastalogy/">
               <FaInstagram />
             </a>
           </li>

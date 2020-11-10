@@ -8,6 +8,11 @@ import Footer from "./footer/Footer"
 import Copyright from "./footer/Copyright"
 import MenuList from "./menu/MenuList"
 
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line global-require
+  require("smooth-scroll")('a[href*="#"]')
+}
+
 const Layout = () => {
   return (
     <>

@@ -10,7 +10,7 @@ const MenuList = () => {
         <h4>Signature Pasta</h4>
         <p>No Substitutions</p>
       </div>
-      <div className="menu-container">
+      <div id="menu" className="menu-container">
         <div className="column column1">
           <MenuItem dish="Caponata - Pomo Sauce" description="with vegetable" />
           <MenuItem
