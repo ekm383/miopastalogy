@@ -40,7 +40,7 @@ const Footer = () => {
         <div className="column">
           <h6>Contact Us:</h6>
           <ul>
-            <li>Coming Soon</li>
+            <li>Phone: (808) 840-0496</li>
             {/* <li>Phone: (808) 123-4567</li>
             <li>Email: info@mccully11x.com</li> */}
           </ul>

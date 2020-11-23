@@ -37,7 +37,7 @@ class NavBarLinks extends Component {
             </a>
           </li>
           <li>
-            <a href="/">
+            <a href="https://www.yelp.com/biz/mio-pastalogy-honolulu">
               <FaYelp />
             </a>
           </li>

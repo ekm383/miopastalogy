@@ -54,7 +54,7 @@ const About = () => {
             rest. Because here..it is truly “my” pasta.. Buon Appetito.
           </p>
           <div className="actions-container">
-            <a href="/">
+            <a href="https://www.yelp.com/biz/mio-pastalogy-honolulu">
               <FaYelp />
             </a>
             <a href="https://www.instagram.com/miopastalogy/">
