@@ -23,6 +23,18 @@ const Header = () => {
       <BackgroundImage className="bg-image" fluid={hero}>
         <NavBar />
         <Banner title="Mio Pastalogy" subtitle="Fresh Pasta Made Daily" />
+        <h3
+          style={{
+            textAlign: "center",
+            color: "#ffffff",
+            margin: "5px auto",
+            backgroundColor: "var(--mainColor)",
+            width: "320px",
+            padding: "10px",
+          }}
+        >
+          Christmas Day Hours: 3PM - 8PM
+        </h3>
         <div className="button-container">
           <a href="https://www.grindztogo.com/single.php/order/restaurant/mio-pastalogy/68?takeout=1">
             <button className="banner-button">Order Takeout</button>
