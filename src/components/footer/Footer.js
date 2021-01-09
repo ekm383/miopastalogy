@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="column">
           <h6>Hours of Operation:</h6>
           <ul>
-            <li>Open Daily 11:00am-8:00pm</li>
+            <li>Open Daily 10:30am-8:00pm</li>
           </ul>
         </div>
         <div className="column">
