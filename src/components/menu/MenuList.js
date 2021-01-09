@@ -27,12 +27,8 @@ const MenuList = () => {
   return (
     <StyledMenu>
       <div id="menu">
-        <a href="https://www.grindztogo.com/single.php/order/restaurant/mio-pastalogy/68?takeout=1">
-          <Img className="menu" fluid={menu01} />
-        </a>
-        <a href="https://www.grindztogo.com/single.php/order/restaurant/mio-pastalogy/68?takeout=1">
-          <Img className="menu" fluid={menu02} />
-        </a>
+        <Img className="menu" fluid={menu02} />
+        <Img className="menu" fluid={menu01} />
       </div>
     </StyledMenu>
   )
