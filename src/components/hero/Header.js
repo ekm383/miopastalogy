@@ -24,7 +24,7 @@ const Header = () => {
         <NavBar />
         <Banner title="Mio Pastalogy" subtitle="Fresh Pasta Made Daily" />
         <div className="button-container">
-          <a href="https://www.grindztogo.com/single.php/order/restaurant/mio-pastalogy/68?takeout=1">
+          <a href="https://mio-pastalogy.square.site">
             <button className="banner-button">Order Takeout</button>
           </a>
         </div>

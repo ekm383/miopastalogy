@@ -27,8 +27,12 @@ const MenuList = () => {
   return (
     <StyledMenu>
       <div id="menu">
-        <Img className="menu" fluid={menu02} />
-        <Img className="menu" fluid={menu01} />
+        <a href="https://mio-pastalogy.square.site">
+          <Img className="menu" fluid={menu02} />
+        </a>
+        <a href="https://mio-pastalogy.square.site">
+          <Img className="menu" fluid={menu01} />
+        </a>
       </div>
     </StyledMenu>
   )
