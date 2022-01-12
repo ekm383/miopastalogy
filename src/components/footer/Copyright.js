@@ -11,7 +11,7 @@ const Copyright = () => {
       }}
     >
       <p style={{ fontSize: "10px" }}>
-        Mio Pastalogy &copy; 2021 All Rights Reserved
+        Mio Pastalogy &copy; 2022 All Rights Reserved
       </p>
     </div>
   )

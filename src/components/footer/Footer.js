@@ -41,6 +41,11 @@ const Footer = () => {
           <h6>Contact Us:</h6>
           <ul>
             <li>Phone: (808) 840-0497</li>
+            <li>
+              <a href="https://www.maisen-us.com/">
+                Parent Company: Maisen Group
+              </a>
+            </li>
             {/* <li>Phone: (808) 123-4567</li>
             <li>Email: info@mccully11x.com</li> */}
           </ul>
