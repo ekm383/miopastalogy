@@ -6,14 +6,18 @@ import Img from "gatsby-image"
 const MenuList = () => {
   const data = useStaticQuery(graphql`
     query {
-      menu01: file(relativePath: { eq: "miopastalogy_menu_01.jpg" }) {
+      menu01: file(
+        relativePath: { eq: "MioPastalogy_Screen_Menu_2022_01_12_01.jpg" }
+      ) {
         childImageSharp {
           fluid(maxWidth: 1200, quality: 100) {
             ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }
-      menu02: file(relativePath: { eq: "miopastalogy_menu_02.jpg" }) {
+      menu02: file(
+        relativePath: { eq: "MioPastalogy_Screen_Menu_2022_01_12_02.jpg" }
+      ) {
         childImageSharp {
           fluid(maxWidth: 1200, quality: 100) {
             ...GatsbyImageSharpFluid_tracedSVG
@@ -28,10 +32,10 @@ const MenuList = () => {
     <StyledMenu>
       <div id="menu">
         <a href="https://mio-pastalogy.square.site">
-          <Img className="menu" fluid={menu02} />
+          <Img className="menu" fluid={menu01} />
         </a>
         <a href="https://mio-pastalogy.square.site">
-          <Img className="menu" fluid={menu01} />
+          <Img className="menu" fluid={menu02} />
         </a>
       </div>
     </StyledMenu>
