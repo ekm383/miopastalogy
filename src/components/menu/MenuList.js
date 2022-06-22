@@ -7,7 +7,7 @@ const MenuList = () => {
   const data = useStaticQuery(graphql`
     query {
       menu01: file(
-        relativePath: { eq: "MioPastalogy_Screen_Menu_2022_01_12_01.jpg" }
+        relativePath: { eq: "MioPastalogy_Screen_Menu_2022_06_21_1.jpg" }
       ) {
         childImageSharp {
           fluid(maxWidth: 1200, quality: 100) {
@@ -16,7 +16,7 @@ const MenuList = () => {
         }
       }
       menu02: file(
-        relativePath: { eq: "MioPastalogy_Screen_Menu_2022_01_12_02.jpg" }
+        relativePath: { eq: "MioPastalogy_Screen_Menu_2022_06_21_2.jpg" }
       ) {
         childImageSharp {
           fluid(maxWidth: 1200, quality: 100) {
