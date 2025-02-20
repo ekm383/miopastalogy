@@ -4,6 +4,9 @@
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "engines": {
+    "node": "12"
+  },
   "dependencies": {
     "babel-plugin-styled-components": "^1.11.1",
     "gatsby": "^2.25.3",
@@ -36,7 +39,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "gatsby develop --host 0.0.0.0 --port 8000",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
